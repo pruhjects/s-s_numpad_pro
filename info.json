@@ -1,0 +1,71 @@
+{
+    "manufacturer": "switches_and_switches",
+    "keyboard_name": "NUMPAD-PRO",
+    "maintainer": "pruhjects",
+    "bootloader": "stm32-dfu",
+    "diode_direction": "COL2ROW",
+    "encoder": {
+        "rotary": [
+            {"pin_a": "A0", "pin_b": "A1"}
+        ]
+    },
+    "features": {
+        "bootmagic": true,
+        "command": false,
+        "console": false,
+        "encoder": true,
+        "extrakey": true,
+        "mousekey": true,
+        "nkro": true
+    },
+    "matrix_pins": {
+        "direct": [
+            [ "A2", "B7", "A3", "B12", "A8" ],
+            [ "A15", "B8", "A4", "B11", "B15" ],
+            [ "B3", "B9", "A5", "B10", "B14" ],
+            [ "B4", "C13", "A6", "B2", "NO_PIN" ],
+            [ "B5", "C14", "A7", "B1", "B13" ],
+            [ "B6", "C15", "NO_PIN", "B0", "NO_PIN"] 
+        ]
+    },
+    "processor": "STM32F072",
+    "url": "",
+    "usb": {
+        "device_version": "1.0.0",
+        "pid": "0x1101",
+        "vid": "0x5353"
+    },
+    "layouts": {
+        "LAYOUT": {
+            "layout": [
+                {"matrix": [0, 0], "x": 0, "y": 0},
+                {"matrix": [0, 1], "x": 1, "y": 0},
+                {"matrix": [0, 2], "x": 2, "y": 0},
+                {"matrix": [0, 3], "x": 3, "y": 0},
+                {"matrix": [0, 4], "x": 4, "y": 0},
+                {"matrix": [1, 0], "x": 0, "y": 1},
+                {"matrix": [1, 1], "x": 1, "y": 1},
+                {"matrix": [1, 2], "x": 2, "y": 1},
+                {"matrix": [1, 3], "x": 3, "y": 1},
+                {"matrix": [1, 4], "x": 4, "y": 1},
+                {"matrix": [2, 0], "x": 0, "y": 2},
+                {"matrix": [2, 1], "x": 1, "y": 2},
+                {"matrix": [2, 2], "x": 2, "y": 2},
+                {"matrix": [2, 3], "x": 3, "y": 2},
+                {"matrix": [2, 4], "x": 4, "y": 2, "h": 2},
+                {"matrix": [3, 0], "x": 0, "y": 3},
+                {"matrix": [3, 1], "x": 1, "y": 3},
+                {"matrix": [3, 2], "x": 2, "y": 3},
+                {"matrix": [3, 3], "x": 3, "y": 3},
+                {"matrix": [4, 0], "x": 0, "y": 4},
+                {"matrix": [4, 1], "x": 1, "y": 4},
+                {"matrix": [4, 2], "x": 2, "y": 4},
+                {"matrix": [4, 3], "x": 3, "y": 4},
+                {"matrix": [4, 4], "x": 4, "y": 4, "h": 2},
+                {"matrix": [5, 0], "x": 0, "y": 5},
+                {"matrix": [5, 1], "x": 1, "y": 5, "w": 2},
+                {"matrix": [5, 3], "x": 3, "y": 5}
+            ]
+        }
+    }
+}
